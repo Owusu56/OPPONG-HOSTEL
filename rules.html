@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav style="background: #dc2121; width: 1200px;">
+    <nav style="background: #dc2121;">
         <div class="navheader">
             <div class="navlogo">
                 <a href="#">OPONG HOSTEL</a>
             </div>
             <div class="navmenubtn" id="menu-btn">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" class="menu-icon" onclick="menutoggle()"></i> 
             </div>
         </div>
         <ul class="navlinks" id="nav-links">
             <li><a href="index.html">HOME</a></li>
             <li><a href="index.html">CONTACT</a></li>
             <li><a href="index.html">REVIEWS</a></li>
+            <li><a href="pricing.html">PRICES</a></li>
             <li><a href="rules.html">RESIDENCY AGREEMENT</a></li>
             <li class="navlinksbtn">
                 <a href="http://wa.me/+233245808086"><button class="btn"><i class="fa-brands fa-whatsapp"></i></button></a>
@@ -30,12 +31,12 @@
             <a href="http://wa.me/+233245808086"><button class="btn btnprimary"><i class="fa-brands fa-whatsapp"></i></button></a>
         </div>
     </nav>
-
+    <br><br><br>
     <h1 style="text-align: center; color: #dc2121; font-weight: bolder;">THE RESIDENT HEREBY <br>
         AGREES TO THE <br>
         FOLLOWING CONDITIONS:</h1>
 <br>
-    <div style="margin-left: 200px ; margin-right: 200px;color: #475569;">
+    <div style="margin-right: 100px; margin-left: 100px; color: #475569; font-family: 'Nunito', sans-serif;">
         <h2 style="color: #dc2121;">REFUND POLICY</h2>
         <p>
             1. Refund request within five (5) days of payment, 100% refund on paid amount. <br> 
@@ -50,7 +51,7 @@
             <br>
             1. Fill in person a student refund request form at the hostel’s Managers office at the Front Desk</p>
             <br><br><br>
-             <h2 style="color: #dc2121; margin-left: 100px;">RULES AND REGULATIONS</h2>
+             <h2 style="color: #dc2121; margin-left: 50px;">RULES AND REGULATIONS</h2>
             <p>
                 1. If you encounter any issues or require repairs, please click on the <b>WhatsApp badge</b> to submit a <b>complaint</b> on the website. <br>
                 2. Students who are in <b>debt to the hostel</b> or who have not paid the appropriate residence fees in advance will (at the time of reporting) not be allowed into residence. <br>
@@ -100,7 +101,7 @@
                 
                 44.Under no circumstances shall a student <b>sell or transfer rooms</b> allocated to him/ her. Mutual exchange of rooms after final allotment is not allowed. However, only hostel admission office may allow as a special case on valid and reasonable grounds</p>
                   <br><br><br><br>
-                <h2 style="color: #dc2121; margin-left: 100px;">REVOCATION OF ACCOMODATION</h2><br>
+                <h2 style="color: #dc2121; margin-left: 50px;">REVOCATION OF ACCOMODATION</h2><br>
                 <p>
                     The hostel is entitled to revocation of accommodation with NO REFUND, in particular if; <br>
                     1. Student is found <b>misleading</b> or <b>misrepresentation</b> during reservation of rooms and payment of hostel fees. <br>
@@ -114,16 +115,18 @@
     <footer>
         <hr>
         <div class="sectioncontainer footerbar">
-            <div class="sectioncontainer footerbar">
-                <a href="index.html"><h4>OPONG HOSTEL</h4></a>
-               
-                <ul class="footersocials">
-                    <li>
-                        <a href="http://wa.me/+233245808086"><i class="fa-brands fa-whatsapp"></i>
-                    </li>
-                    
-                </ul>
-            </div>
+            <a href="rules.html"><h4>OPONG HOSTEL</h4></a>
+           
+            <ul class="footersocials">
+                <li>
+                    <a href="http://wa.me/+233245808086"><i class="fa-brands fa-whatsapp"></i>
+                </li>
+                
+            </ul>
+        </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js"></script>
 </body>
 </html>

@@ -544,6 +544,15 @@ color: var(--white);
         justify-content: flex-end;
     }
 }
+.menu-icon{
+    display: none;
+}
+@media only screen and (max-width: 800px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
 
 .key{
     font-family: 'Nunito', sans-serif;
